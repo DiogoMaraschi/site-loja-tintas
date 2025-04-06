@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2a2828;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.contato h2 {
+    text-align:left;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.carrinhoConteudo {
+    display: flex;
+    justify-content:end;
+}
+
+.img, .formulario {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.containerButton{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap: 5px;
+}
+
+form label {
+    font-size: 1rem;
+    margin: 10px 0 5px;
+}
+
+.textQtd {
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+}
+
+.buttonColor {
+    background-color: #b8b7b7;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+    border: none;
+}
+
+.buttonPur {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+    
+
+}
+
+button:hover {
+    background-color: #6c6c6c;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
