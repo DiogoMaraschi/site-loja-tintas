@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2a2828;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.indexConteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categorias {
+    width: 25%;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #e4e4e4;
+}
+
+.categorias h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.listaItens {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 10%;
+}
+
+.item:hover {
+    background-color: #f0f0f0;
+}
+
+.listProdutos {
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+}
+
+.produto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+
+.produto:hover {
+    transform: translateY(-10px);
+}
+
+.imgProd {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.titulo {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.preco {
+    color: #e60000;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
