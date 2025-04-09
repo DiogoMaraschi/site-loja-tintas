@@ -45,12 +45,10 @@ main {
 
 .carrinho {
     width: 80%;
-    max-width: 900px;
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -70,8 +68,6 @@ h1 {
 .imgProduto {
     width: 80px;
     height: auto;
-    object-fit: cover;
-    border-radius: 8px;
 }
 
 .textoCarrinho {

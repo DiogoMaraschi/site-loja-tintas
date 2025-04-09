@@ -77,13 +77,6 @@ form label {
     margin: 10px 0 5px;
 }
 
-.textQtd {
-        padding: 10px;
-        font-size: 1rem;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-}
-
 .buttonColor {
     background-color: #b8b7b7;
     color: #000000;
