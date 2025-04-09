@@ -57,23 +57,10 @@ main {
 }
 
 .tituloProd {
+    font-size: 1.5rem;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     padding-bottom: 10px;
-}
-
-.categorias {
-    width: 25%;
-    font-size: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #e4e4e4;
-}
-
-.categorias h2 {
-    text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
 }
 
 .listaItens {
@@ -94,7 +81,7 @@ main {
 }
 
 .listProdutos {
-    width: 65%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px; 
