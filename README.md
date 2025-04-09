@@ -26,10 +26,11 @@ Aluno: Diogo Bernardo Maraschi
 - Fiz uma descrição do produto
 - Dividi o formulario e a img em 50% para que eles ocupem metade do pai, e utilizei display flex para deixar lado a lado.
 
-
-
-
 *Cabeçalho e Footer*
 - Utilizei a mesma estrutura em todas as páginas.
 - O cabeçalho montei em forma de lista não ordenada com apenas uma linha
 - As páginas podem ser acessadas ao clicar no item referente a cada arquivo html vinculado, "produto" leva para página de produtos e assim sucesivamente.
+
+*Github*
+- Fiz a configuração no github pages
+- Tentei fazer commits constantemente mas como não tenho habito só recordava quando acabava algum tópico
